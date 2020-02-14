@@ -1,3 +1,15 @@
 .container{
   text-align: center;
 }
+
+.home{
+
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+
+}
+
+.jumbotron{
+  background-color: white;
+}
