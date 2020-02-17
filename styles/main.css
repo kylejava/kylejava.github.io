@@ -1,15 +1,13 @@
-.container{
+.container-fluid{
   text-align: center;
+  margin-top:0;
+  margin-right:auto;
+  margin-bottom:0;
+  margin-left:auto;
+  background: #d3d3d3 ;
 }
 
-.home{
-
-  position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
-
-}
-
-.jumbotron{
-  background-color: white;
+.container{
+  margin-left: 0;
+  margin-right: auto;
 }
