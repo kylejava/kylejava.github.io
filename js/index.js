@@ -1,3 +1,3 @@
 let button = document.getElementByClassName('icon')
 
-$('#collapseOne').collapse('show');
+$('#collapseTwo').collapse('show');
