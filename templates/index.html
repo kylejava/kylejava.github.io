@@ -15,26 +15,37 @@
     <!-- NAV BAR -->
 
 
-
+<!-- TEST
       <nav class="navbar-wrapper sticky-top">
 
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#mainNavBar">
+              <span class="icon-bar"></span>
 
-          <h3 href ="#about"  class="my-0 mr-md-auto font-weight-normal">KJ</h3>
+            </button>
+            <h3  class="my-0 mr-md-auto font-weight-normal"><a href="#" id="head">KJ</a></h3>
 
-          <nav class="my-2 my-md-0 mr-md-3">
+          </div>
+
+
+          <nav class="my-2 my-md-0 mr-md-3" class="collapse navbar-collapse" id="mainNavBar">
             <a href="#about" class="p-2 text-dark">About</a>
             <a href="#projects" class="p-2 text-dark">Projects</a>
             <a href="../doc/KyleJavaResume.pdf" class="p-2 text-dark">Resume</a>
           </nav>
+
+
         </div>
 
       </nav>
+-->
 
 
 
       <!-- End of nav bar -->
       <!-- Start of home -->
+      <a name = "top"></a>
       <div class="container-fluid" class="h-100 d-inline-block">
         <div class="container-sm" >
           <div class="row">
@@ -60,8 +71,9 @@
             </div>
           </div>
         </div>
-      </div>
         <a name = "about"></a>
+      </div>
+
 
       <!-- End of Home -->
 
@@ -84,17 +96,15 @@
           </p>
         </div>
         <div class="container">
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="aboutAccordion">
 
             <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button class="btn btn-link"type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div class="card-header" id="headingOne" class="btn btn-link"type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h4 class="mb-0">
                     Education
-                  </button>
-                </h2>
+                </h4>
               </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent = "#accordionExample">
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent = "#aboutAccordion">
                 <div class="card-body">
                   <div>
                     <h4>California State University San Marcos</h4>
@@ -102,7 +112,8 @@
                     <p>
                       • Major: Computer Science <br>
                       • GPA: 3.35<br>
-                      • Clubs: Technical Lead for Developer Student Clubs (DSC)
+                      • <span style="font-weight: bold">Clubs</span>: Technical Lead for Developer Student Clubs (DSC)<br>
+                      • <span style="font-weight: bold">Awards</span>: Dean's List for Fall 2018 Semester(GPA: 3.6), Dean's List for Spring 2019 Semester(GPA: 4.0)
                     </p>
                   </div>
                 </div>
@@ -112,14 +123,14 @@
 
 
             <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <div class="card-header" id="headingTwo" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h4 class="mb-0">
+
                     Expierence
-                  </button>
-                </h2>
+
+                </h3>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent = "#accordionExample">
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent = "#aboutAccordion">
                 <div class="card-body">
                   <div >
                     <h5>Kirkland's Home Decor</h5>
@@ -138,14 +149,14 @@
 
 
             <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <div class="card-header" id="headingThree" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h4 class="mb-0">
+
                     Skills
-                  </button>
-                </h2>
+
+                </h4>
               </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent = "#accordionExample">
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent = "#aboutAccordion">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm">
@@ -168,10 +179,6 @@
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>
