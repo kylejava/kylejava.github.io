@@ -17,40 +17,29 @@
 
 
       <nav class="navbar-wrapper sticky-top">
-
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-pd-4 pb-3 bg-white border-bottom shadow-sm">
           <h3  class="my-0 mr-md-auto font-weight-normal"><a href="#" id="head">KJ</a></h3>
-
-
-
           <nav class="my-2 my-md-0 mr-md-3" >
             <a href="#about" class="p-2 text-dark">About</a>
             <a href="#projects" class="p-2 text-dark">Projects</a>
-            <a href="../doc/KyleJavaResume - Copy.pdf" class="p-2 text-dark">Resume</a>
+            <a href="../kylejava.dev/doc/KyleJavaResume.pdf" class="p-2 text-dark">Resume</a>
           </nav>
-
-
         </div>
-
       </nav>
-
-
-
-
-
-
       <!-- End of nav bar -->
       <!-- Start of home -->
-      <a name = "top"></a>
-      <div class="container-fluid" class="h-100 d-inline-block">
+
+      <div class="top container-fluid home" class="h-100 d-inline-block" >
+        <a name = "top"></a>
         <div class="container-sm" >
           <div class="row">
             <div class="col">
+              <img src="../kylejava.dev/pics/me.jpg"  alt="picture of me" class="img rounded-circle mx-auto" id="me">
               <h1>Kyle Java</h1>
               <hr >
-              <h3>Computer Science Student at the California State University of San Marcos </h3>
+              <h3>Computer Science Student at the <br> California State University of San Marcos </h3>
               <hr>
+              <p>Connect With Me!</p>
               <div class="btn-group social-media-buttons">
                 <a href="https://github.com/kylejava" target = "_blank">
                   <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
@@ -66,9 +55,6 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4">
-              <img src="../pics/me.jpg"  alt="picture of me" class="img-fluid">
-            </div>
           </div>
         </div>
         <a name = "about"></a>
@@ -80,237 +66,205 @@
       <!-- Start Of about -->
 
 
-      <div class="container-fluid" >
+      <div class="container-fluid about" >
         <div class="container-sm">
 
+        <h2 class="text-center pt-5 pb-5">Learn More About Me!</h2>
 
-        <div>
 
-          <h1>About Me!</h1>
-
-        </div>
         <div class="container">
-          <hr>
-          <p>
-
-          </p>
-        </div>
-        <div class="container">
-          <div class="accordion" id="aboutAccordion">
-
-            <div class="card">
-              <div class="card-header" id="headingOne" class="btn btn-link"type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h4 class="mb-0">
-                    Education
-                </h4>
-              </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent = "#aboutAccordion">
-                <div class="card-body">
-                  <div>
-                    <h4>California State University San Marcos</h4>
-                    <h6>Expected Graduation Date May 2022</h6>
-                    <p>
-                      • Major: Computer Science <br>
-                      • GPA: 3.35<br>
-                      • <span style="font-weight: bold">Clubs</span> <br> - Developer Student Clubs (DSC)<br>
-                      • <span style="font-weight: bold">Awards</span><br> - Dean's List for Fall 2018 Semester(GPA: 3.6)<br> - Dean's List for Spring 2019 Semester(GPA: 4.0)<br>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div class="card">
-              <div class="card-header" id="headingTwo" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h4 class="mb-0">
-
-                    Experience
-
-                </h3>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent = "#aboutAccordion">
-                <div class="card-body">
-                  <div>
-                    <h5>CS & Math Tutor - <span style="font-weight:bold">CSUSM STEM Center</span></h5>
-                    <h6>January 2020 - Present</h6>
-                    <p>
-                      • Mentor students in various Computer Science and Mathematics courses <br>
-                      • Apply the Socratic method in order to further a students understanding of the problem <br>
-                      • Help reinforce key concepts in Computer Science and Mathematics <br>
-
-                    </p>
-                  </div>
-                  <h5>Technical Lead - <span style="font-weight:bold">Developer Student Clubs</span></h5>
-                  <h6>January 2020 - Present</h6> <br>
-
-                  <h5><span style="font-weight:bold">Hackathons:</span> - LA Hacks 2020, GrizzHacks 5</h5>
-
-
-                </div>
-
-                </div>
-              </div>
-            </div>
-
-
-
-            <div class="card">
-              <div class="card-header" id="headingThree" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h4 class="mb-0">
-
-                    Skills
-
-                </h4>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent = "#aboutAccordion">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-sm">
-                      <h6>
-                        • C++ <br>
-                        • Python<br>
-                        • HTML<br>
-                        • CSS <br>
-                        • JavaScript<br>
-                      </h6>
-                    </div>
-                    <div class="col-sm">
-                      <h6>
-                        • Java<br>
-                        • Kivy(Python Mobile Framework)<br>
-                        • Bootstrap<br>
-                        • Unix<br>
-                        • Flutter<br>
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h5 class = "text-center pb-5">
+              Nice to meet you! My name is Kyle Java and I am a Computer Science student from the <br /> California State University San Marcos.
+              <br/>
+              <br/>
+              I enjoy learning about new technologies, more specifically about websites and applications. My goal is <br/>
+              to develop new products that will create an impact on society.
+              <br/>
+              <br/>
+              I currently work as a Computer Science and Math tutor at CSU San Marcos. During my free time I like to <br/>
+              work on personal projects, play piano, and participate in hackathons. I chose to pursue a career in <br/>
+              Software Engineering during my Senior year of High School when I was exposed to the Python programming language.
+          </h5>
+          <h2 class="text-center py-5">The languages and tools I have worked with </h2>
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th>Languages</th>
+                <td>Python</td>
+                <td>C++</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>Javascript</td>
+                <td>Java</td>
+                <td>Dart</td>
+              </tr>
+              <tr>
+                <th>Frameworks</th>
+                <td>Bootstrap</td>
+                <td>Flask</td>
+                <td>Kivy</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Tools</th>
+                <td>Flutter</td>
+                <td>Git</td>
+                <td>Atom</td>
+                <td>Unix</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
           </div>
         </div>
       </div>
       <a name = "projects"></a><br>
     </div>
-
-
-
-
-
       <!-- end of projects -->
 
       <!-- Start of projects-->
 
-      <div class="container-fluid">
-        <div class="container-sm">
+  <div class="container-fluid projects">
+    <div class="container-sm">
 
 
-        <div class="row">
-          <div class="col">
+      <div class="row">
+        <div class="col">
 
-            <h1>Projects</h1>
+          <h1>Projects</h1>
+        </div>
+      </div>
+      <div class="grid-container container-fluid">
+
+
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">Elementovate</h5>
+            <span class="badge badge-pill badge-primary">Flutter</span>
+            <span class="badge badge-pill badge-secondary">Android Studio</span>
+            <p class="card-text">Mobile app that allows students to use the periodic table in a more efficient way
+              for learning and studying purposes. Won "Best Education Hack" at GrizzHacks 5.</p><br/>
+            <a href="https://github.com/kylejava/GrizzHacks-2020" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+            <a href="https://devpost.com/software/elementovate?ref_content=user-portfolio&ref_feature=in_progress" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
+            </a>
           </div>
         </div>
 
-        <div class="container" id="Elementovate" class="project">
-          <hr >
 
-          <h5>Elementovate </h5><p>Sept. 2020</p>
-          <p>
-            • A mobile application that allows students to use the periodic table in a more simple and efficient way
-              for learning and studying purposes<br>
-
-            • Developed the UI/UX using Flutter in Android Studio, as well as use external Flutter packages<br>
-            • Demoed the app at GrizzHacks 5 and was awarded the “Best Education Hack”
-
-
-
-          </p>
-          <a href="https://github.com/kylejava/GrizzHacks-2020" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-          </a>
-          <a href="https://devpost.com/software/elementovate?ref_content=user-portfolio&ref_feature=in_progress" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
-          </a>
-          <hr >
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">Our Artistic Space</h5>
+            <span class="badge badge-pill badge-primary">HTML</span>
+            <span class="badge badge-pill badge-secondary">CSS</span>
+            <span class="badge badge-pill badge-success">Python</span>
+            <span class="badge badge-pill badge-danger">Flask</span>
+            <span class="badge badge-pill badge-warning">Google App Engine</span>
+            <span class="badge badge-info">Yelp API</span>
+            <p class="card-text">Web application that shows local art museums and galleries based on the user's location. Demoed the website at "Hacks And Crafts" and won "Best Beginner Hack."</p>
+            <a href="https://github.com/kylejava/HacksAndCrafts2020" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+            <a href="https://devpost.com/software/our-artistic-space" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
+            </a>
+          </div>
         </div>
 
 
-        <div class="container" id="simplepianokeys" class="project">
-          <hr >
-          <h5 >Simple Piano Keys </h5> <p>August 2018 - October 2018</p>
-          <p>
-            • Designed and developed a website that allows the user to play a portion of the piano on the computer. <br>
-            • Used skills such as HTML, CSS, and JavaScript learned from the Google's Computer Science Summer Institute Extension @ CSUSM. <br>
-            • Allowed the user to make piano sounds on the keyboard by using JavaScript. <br>
-            • Developed Back-End thrugh Jinja. <br>
-            • Deployed the web app through the Google App Engine.
-
-          </p>
-          <a href="https://github.com/kylejava/simplepianokeys" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-          </a>
-          <a href="https://simplepianokeys.appspot.com" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Link</button>
-          </a>
-          <hr >
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">BobaMe</h5>
+            <span class="badge badge-pill badge-primary">Python</span>
+            <span class="badge badge-pill badge-secondary">Kivy</span>
+            <span class="badge badge-pill badge-success">Yelp API</span>
+            <p class="card-text">Mobile app that suggests new boba tea location in a user's city or zip code. Retrieved boba tea shop locations by utilizing the Yelp API.</p><br/>
+            <a href="https://github.com/kylejava/BobaMe" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+          </div>
         </div>
 
-        <div class="container" id="WeatherMachine" class="project">
-          <hr >
-          <h5>Raspberry PI Weather Machine</h5><p>January 2019 - March 2019</p>
-          <p>
-            • Developed a Python program that allows the user to enter their city and displays the weather on a LCD screen.<br>
-            • Attached a 16x2 LCD screen onto the Raspberry Pi by utilizing the Pi's GPIO pins. <br>
-            • Retrieved weather from the user's input by using the Open Weather Map API.
-
-
-          </p>
-          <a href="https://github.com/kylejava/weather_display_for_rpi" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-          </a>
-          <hr >
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">Rasperry Pi Weather Machine</h5>
+            <span class="badge badge-pill badge-primary">Python</span>
+            <span class="badge badge-pill badge-secondary">Raspberry Pi</span>
+            <span class="badge badge-pill badge-success">OpenWeatherMap API</span>
+            <p class="card-text">Program that takes in user's area and displays the weather on a 16x2 LCD screen attatched to the Raspberry Pi via GPIO pins.</p>
+            <a href="https://github.com/kylejava/Weather-Display-for-Raspberry-Pi" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+          </div>
         </div>
 
-        <div class="container" id="BobaMe" class="project">
-          <hr >
 
-          <h5>BobaMe</h5><p>May 2019 - August 2019</p>
-          <p>
-            • Designed and developed a mobile application that takes in a user's zip code or city and returns Boba tea shop locations in that area. <br>
-            • Created a GUI through a Python framework called Kivy, which allowed making multi-touch apps easy through Python. <br>
-            • Made requests to find Boba tea shop in various locations by utilizing the Yelp API.
-
-          </p>
-          <a href="https://github.com/kylejava/BobaMe" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-          </a>
-          <hr >
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">Steroify</h5>
+            <span class="badge badge-pill badge-primary">HTML</span>
+            <span class="badge badge-pill badge-secondary">CSS</span>
+            <span class="badge badge-pill badge-success">Python</span>
+            <span class="badge badge-pill badge-danger">Flask</span>
+            <span class="badge badge-pill badge-warning">Spotify API (Spotipy)</span>
+            <p class="card-text">Web application that shows the user's top played album. Learn more about your listening history with the Spotify API.</p><br/>
+            <a href="https://github.com/kylejava/Stereoify" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+          </div>
         </div>
 
-        <div class="container" id="Stereoify" class="project">
-          <hr >
-
-          <h5>Stereoify</h5><p>June 2020</p>
-          <p>
-            • Web application that displays the user's top albums on Spotify. <br>
-            • Developed the UI using HTML & CSS <br>
-            • Created the backend using Flask and utilized the Spotify API and Spotipy in order for the user to access their Spotify account.<br>
-
-
-          </p>
-          <a href="https://github.com/kylejava/Stereoify" target = "_blank">
-            <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-          </a>
-          <hr >
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">FrightNight</h5>
+            <span class="badge badge-pill badge-primary">Flutter</span>
+            <span class="badge badge-pill badge-secondary">Dart</span>
+            <span class="badge badge-pill badge-success">TheOpenMovieDatabase API</span>
+            <p class="card-text">Mobile application that reccomends new scary movies. Demoed the app at Hack or Treat? sponsored by MLH.</p><br/>
+            <a href="https://github.com/kylejava/HackorTreat2020" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+            <a href="https://devpost.com/software/frightnight" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
+            </a>
+          </div>
         </div>
 
+        <div class="card" style="width: 18rem;">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body">
+            <h5 class="card-title">Simple Piano Keys</h5>
+            <span class="badge badge-pill badge-primary">HTML</span>
+            <span class="badge badge-pill badge-secondary">CSS</span>
+            <span class="badge badge-pill badge-success">JavaScript</span>
+            <span class="badge badge-pill badge-danger">Jinja</span>
+            <span class="badge badge-pill badge-warning">Google Cloud Platform</span>
+            <span class="badge badge-info">Python</span>
+            <p class="card-text">Web application that allows the user to play a portion of the keyboard through their keyboard and mouse.</p><br/>
+            <a href="https://github.com/kylejava/SimplePianoKeys" target = "_blank">
+              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+            </a>
+          </div>
+        </div>
 
       </div>
-        </div>
+
     </div>
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

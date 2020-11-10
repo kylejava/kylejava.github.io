@@ -1,3 +1,16 @@
+.about{
+    background-color: #dddddd;
+  text-align: left;
+    min-height: 90vh;
+}
+
+.top{
+
+}
+
+.projects{
+
+}
 .container-fluid{
   display: flex;
   flex-direction: column;
@@ -5,13 +18,20 @@
   align-items: center;
   text-align: center;
   min-height: 90vh;
+}
+
+#me{
+  height: 300px;
+  width: 300px;
 
 }
 
-.about{
-  text-align: left;
-    min-height: 90vh;
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
 }
 
 
@@ -20,6 +40,13 @@
 
 }
 
+
 #head{
   color: black;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  text-align: left;
 }
