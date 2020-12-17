@@ -1,21 +1,5 @@
-.about{
-    background-color: #dddddd;
-  text-align: left;
-    min-height: 90vh;
-}
-
-.top{
-
-}
-
-
-.container-fluid{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 90vh;
+#title{
+  font-size: 100px;
 }
 
 #me{
@@ -24,6 +8,53 @@
 
 }
 
+
+#head{
+  color: black;
+}
+
+#oas{
+  height: 300px;
+  width: 450px;
+}
+
+.featured-img{
+  opacity: 1.0;
+}
+
+.featured-img:hover{
+  opacity: 0.5;
+}
+
+.badge{
+  color: white;
+}
+
+.description{
+
+  font-size: 20px;
+}
+.home{
+  text-align: center;
+}
+.about{
+    background-color: #dddddd;
+  text-align: left;
+    min-height: 90vh;
+}
+
+.introduction{
+  align-items: center;
+}
+
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 90vh;
+}
 
 .grid-container{
 
@@ -37,11 +68,6 @@
 .container{
   text-align: left;
 
-}
-
-
-#head{
-  color: black;
 }
 
 .card{

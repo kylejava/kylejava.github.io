@@ -26,13 +26,12 @@
     <!-- End of nav bar -->
 
     <!-- Start of home -->
-    <div class="top container-fluid home" class="h-100 d-inline-block" >
+    <div class=" container-fluid home" class="h-100 d-inline-block" >
       <a name = "top"></a>
       <div class="container-sm" >
         <div class="row">
           <div class="col">
-            <img src="../pics/me.jpg"  alt="picture of me" class="my-5 img rounded-circle mx-auto" id="me">
-            <h1>Kyle Java</h1>
+            <h1 id="title">Kyle Java</h1>
             <hr >
             <h3>Computer Science Student at the <br> California State University of San Marcos </h3>
             <hr>
@@ -61,22 +60,31 @@
     <!-- Start Of about -->
     <div class="container-fluid about" >
       <div class="container-sm">
-        <h2 class="text-center pt-5 pb-5">Learn More About Me!</h2>
-        <div class="container">
-          <h5 class = "text-center pb-5">
-              Nice to meet you! My name is Kyle Java and I am a Computer Science student from the <br /> California State University San Marcos.
-              <br/>
-              <br/>
-              I enjoy learning about new technologies, more specifically about websites and applications. My goal is <br/>
-              to develop new products that will create an impact on society.
-              <br/>
-              <br/>
-              I currently work as a Computer Science and Math tutor at CSU San Marcos. During my free time I like to <br/>
-              work on personal projects, play piano, and participate in hackathons. I chose to pursue a career in <br/>
-              Software Engineering during my Senior year of High School when I was exposed to the Python programming language.
-          </h5>
-          <h2 class="text-center py-5">The languages and tools I have worked with </h2>
+        <h2 class="text-center pt-5 pb-5">Nice To Meet You!</h2>
+        <div class="container-sm introduction">
+          <div class="row">
+            <div class="col-md-4">
+              <img id="me" class="rounded-circle img-fluid"src="pics/me.jpg" alt="pic of me">
+            </div>
+            <div class="col-md-1">
+              <br>
+              <br>
+            </div>
+            <div class="col-md-7">
+              <p class = "pb-5">
+                  I'm a Computer Science student at the California State University San Marcos graduating in Spring 2022.
+                  I enjoy learning about new technologies, more specifically about websites and applications. My goal is
+                  to develop new products that will create an impact on society.
+                  <br/>
+                  <br/>
+                  I currently work as a Computer Science and Math tutor at CSU San Marcos. During my free time I like to
+                  work on personal projects, play piano, and participate in hackathons. I chose to pursue a career in
+                  Software Engineering during my Senior year of High School when I was exposed to the Python programming language.
+              </p>
+            </div>
+          </div>
         </div>
+        <h2 class="text-center py-5">The languages and tools I have worked with </h2>
         <div class="table-responsive">
           <table class="table table-striped">
             <tbody>
@@ -115,53 +123,138 @@
       </div>
     <a name = "projects"></a><br>
     </div>
-      <!-- end of about -->
-      <!-- Start of projects-->
-    <div class="container-fluid">
-      <div class="row ">
-        <div class="col">
+    <!-- end of about -->
 
-          <h1>Projects</h1>
+    <!-- Start of Featured projects-->
+    <div class="container-sm my-5">
+      <h1 class="text-center my-5">Featured Projects</h1>
+      <!-- Elementovate -->
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://devpost.com/software/elementovate">
+            <img class="featured-img" src="pics/elementovate.png" alt="pics">
+          </a>
+        </div>
+        <div class="col-md-1">
+          <br>
+          <br>
+        </div>
+        <div class="col-md-7">
+          <h2>Elementovate</h1>
+          <p class="description">
+            Elementovate is a mobile application that helps students learn the periodic table as well as use
+            it as a tool for studying for future tests. Elementovate was awarded "Best Education Hack" at GrizzHacks 5.
+          </p>
+          <h3>
+            <span class="badge bg-primary">Flutter</span>
+            <span class="badge bg-secondary">Android Studio</span>
+          </h3>
+        </div>
+      </div>
+      <!-- Our Artistic Space -->
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <a href="https://devpost.com/software/our-artistic-space">
+            <img class="featured-img" src="pics/oas.jpg" id="oas" alt="pics">
+          </a>
+        </div>
+        <div class="col-md-1">
+          <br>
+        </div>
+        <div class="col-md-7">
+          <h2>Our Artistic Space</h2>
+          <p class="description">
+            Our Artistic Space is a website aimed to help the local art community.
+            Our website helps people find local art museums, galleries, schools, and stores in their area.
+            Our Artistic Space was awarded "Best Beginner Hack" at Hacks And Crafts 2020.
+          </p>
+          <h3>
+            <span class="badge badge-primary">HTML</span>
+            <span class="badge badge-secondary">CSS</span>
+            <span class="badge badge-success">Python</span>
+          </h3>
+          <h3>
+            <span class="badge badge-danger">Flask</span>
+            <span class="badge badge-warning">Google App Engine</span>
+            <span class="badge badge-info">Yelp API</span>
+          </h3>
+        </div>
+      </div>
+
+      <!-- SafeSpace -->
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <a href="https://devpost.com/software/safespace-oxnc1w">
+            <img class="featured-img" src="pics/safespace.png" id="oas" alt="pics">
+          </a>
+        </div>
+        <div class="col-md-1">
+          <br>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <h2>SafeSpace</h2>
+          </div>
+          <p class="description">
+            SafeSpace is a website aimed to create a safer internet for children.
+            The user can input the URL of any website into our platform and SafeSpace will scan that website to see if there are any vulgar language.
+            Demoed project at CatHacks: Winter Edition.
+          </p>
+          <h3>
+            <span class="badge badge-primary">HTML</span>
+            <span class="badge badge-secondary">CSS</span>
+            <span class="badge badge-success">Bootstrap</span>
+          </h3>
+          <h3>
+            <span class="badge badge-danger">Flask</span>
+            <span class="badge badge-warning">Beautiful Soup</span>
+            <span class="badge badge-info">MongoDB</span>
+          </h3>
+        </div>
+      </div>
+
+    </div>
+    <!-- END of Featured projects-->
+
+    <!-- Start of Other projects-->
+    <div class="container-fluid my-5">
+      <div class="row ">
+        <div class="col my-5">
+          <h1>Other Projects</h1>
         </div>
       </div>
       <div class=" container-fluid card-deck">
        <div class="row py-3" >
-        <div class="card" style="width: 18rem;">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Elementovate</h5>
-            <span class="badge badge-pill badge-primary">Flutter</span>
-            <span class="badge badge-pill badge-secondary">Android Studio</span>
-            <p class="card-text">Mobile app that allows students to use the periodic table in a more efficient way
-              for learning and studying purposes. Won "Best Education Hack" at GrizzHacks 5.</p><br/>
-            <a href="https://github.com/kylejava/GrizzHacks-2020" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-            </a>
-            <a href="https://devpost.com/software/elementovate?ref_content=user-portfolio&ref_feature=in_progress" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
-            </a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Our Artistic Space</h5>
-            <span class="badge badge-pill badge-primary">HTML</span>
-            <span class="badge badge-pill badge-secondary">CSS</span>
-            <span class="badge badge-pill badge-success">Python</span>
-            <span class="badge badge-pill badge-danger">Flask</span>
-            <span class="badge badge-pill badge-warning">Google App Engine</span>
-            <span class="badge badge-info">Yelp API</span>
-            <p class="card-text">Web application that shows local art museums and galleries based on the user's location. Demoed the website at "Hacks And Crafts" and won "Best Beginner Hack."</p>
-            <a href="https://github.com/kylejava/HacksAndCrafts2020" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-            </a>
-            <a href="https://devpost.com/software/our-artistic-space" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
-            </a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
+         <div class="card" style="width: 18rem;">
+           <!--<img src="..." class="card-img-top" alt="...">-->
+           <div class="card-body">
+             <h5 class="card-title">BobaMe</h5>
+             <span class="badge badge-pill badge-primary">Python</span>
+             <span class="badge badge-pill badge-secondary">Kivy</span>
+             <span class="badge badge-pill badge-success">Yelp API</span>
+             <p class="card-text">Mobile app that suggests new boba tea location in a user's city or zip code. Retrieved boba tea shop locations by utilizing the Yelp API.</p><br/>
+             <a href="https://github.com/kylejava/BobaMe" target = "_blank">
+               <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+             </a>
+           </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+           <!--<img src="..." class="card-img-top" alt="...">-->
+           <div class="card-body">
+             <h5 class="card-title">Simple Piano Keys</h5>
+             <span class="badge badge-pill badge-primary">HTML</span>
+             <span class="badge badge-pill badge-secondary">CSS</span>
+             <span class="badge badge-pill badge-success">JavaScript</span>
+             <span class="badge badge-pill badge-danger">Jinja</span>
+             <span class="badge badge-pill badge-warning">Google Cloud Platform</span>
+             <span class="badge badge-info">Python</span>
+             <p class="card-text">Web application that allows the user to play a portion of the keyboard through their keyboard and mouse.</p><br/>
+             <a href="https://github.com/kylejava/SimplePianoKeys" target = "_blank">
+               <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
+             </a>
+           </div>
+         </div>
+         <div class="card" style="width: 18rem;">
           <!--<img src="..." class="card-img-top" alt="...">-->
           <div class="card-body">
             <h5 class="card-title">Root4U</h5>
@@ -178,22 +271,9 @@
               <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
             </a>
           </div>
-        </div>
+         </div>
        </div>
        <div class = "row py-3">
-        <div class="card" style="width: 18rem;">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">BobaMe</h5>
-            <span class="badge badge-pill badge-primary">Python</span>
-            <span class="badge badge-pill badge-secondary">Kivy</span>
-            <span class="badge badge-pill badge-success">Yelp API</span>
-            <p class="card-text">Mobile app that suggests new boba tea location in a user's city or zip code. Retrieved boba tea shop locations by utilizing the Yelp API.</p><br/>
-            <a href="https://github.com/kylejava/BobaMe" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-            </a>
-          </div>
-        </div>
 
         <div class="card" style="width: 18rem;">
           <!--<img src="..." class="card-img-top" alt="...">-->
@@ -223,10 +303,6 @@
             </a>
           </div>
         </div>
-       </div>
-       <div class="row py-3">
-
-
         <div class="card" style="width: 18rem;">
           <!--<img src="..." class="card-img-top" alt="...">-->
           <div class="card-body">
@@ -243,46 +319,11 @@
             </a>
           </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Simple Piano Keys</h5>
-            <span class="badge badge-pill badge-primary">HTML</span>
-            <span class="badge badge-pill badge-secondary">CSS</span>
-            <span class="badge badge-pill badge-success">JavaScript</span>
-            <span class="badge badge-pill badge-danger">Jinja</span>
-            <span class="badge badge-pill badge-warning">Google Cloud Platform</span>
-            <span class="badge badge-info">Python</span>
-            <p class="card-text">Web application that allows the user to play a portion of the keyboard through their keyboard and mouse.</p><br/>
-            <a href="https://github.com/kylejava/SimplePianoKeys" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-            </a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">SafeSpace</h5>
-            <span class="badge badge-pill badge-primary">HTML</span>
-            <span class="badge badge-pill badge-secondary">CSS</span>
-            <span class="badge badge-pill badge-success">Python</span>
-            <span class="badge badge-pill badge-danger">Flask</span>
-            <span class="badge badge-pill badge-warning">MongoDB</span>
-            <span class="badge badge-info">Beautiful Soup</span>
-            <p class="card-text">Web application aimed to make the internet a safer place for children. Hackathon project for CatHacks: Winter Edition</p><br/>
-            <a href="https://github.com/kylejava/CatHacks-Winter-Edition-2020" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fab fa-github"></i> Github</button>
-            </a>
-            <a href="https://devpost.com/software/safespace-oxnc1w" target = "_blank">
-              <button type="button" class="btn btn-git"><i class="fas fa-link"></i> Devpost</button>
-            </a>
-          </div>
-        </div>
        </div>
       </div>
     </div>
     <!-- End of Projects -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
